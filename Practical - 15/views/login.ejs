@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Library Portal - Login</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Login to Library Portal</h1>
+    <% if (error) { %>
+      <div class="error"><%= error %></div>
+    <% } %>
+    <form method="POST" action="/login">
+      <label for="username">Enter your name:</label>
+      <input type="text" id="username" name="username" placeholder="Your name" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
