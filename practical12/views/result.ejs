@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Total Income</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f7f7fa; }
+        .container { max-width: 400px; margin: 40px auto; background: #fff; padding: 32px; border-radius: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.08);}
+        h2 { text-align: center; margin-bottom: 24px; }
+        .result { background: #e7fbe7; color: #1a7c1a; padding: 12px; border-radius: 6px; text-align: center; font-size: 1.1rem; margin-bottom: 18px;}
+        .back { display: block; text-align: center; margin-top: 18px; color: #3a3a7c; text-decoration: none; }
+        .back:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Total Income</h2>
+        <div class="result">
+            Income Source 1: <strong><%= income1 %></strong><br>
+            Income Source 2: <strong><%= income2 %></strong><br>
+            <hr>
+            <strong>Total Income: <%= total %></strong>
+        </div>
+        <a class="back" href="/">&#8592; Back to form</a>
+    </div>
+</body>
+</html>

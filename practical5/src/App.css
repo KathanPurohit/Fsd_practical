@@ -1,0 +1,93 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calc-main {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+.calc-display {
+  background-color: #111;
+  color: #0f0;
+  font-size: 1.8rem;
+  text-align: right;
+  padding: 10px 15px;
+  border-radius: 10px;
+  min-height: 60px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.calc-expression {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.calc-result {
+  color: #0f0;
+  font-size: 1.5rem;
+}
+
+.calc-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calc-row {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.btn-num {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-num:hover {
+  background-color: #444;
+}
+
+.btn-op {
+  background-color: #fe9505;
+  color: white;
+}
+
+.btn-op:hover {
+  background-color: #e08a00;
+}
+
+.btn-del {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-del:hover {
+  background-color: #d32f2f;
+}

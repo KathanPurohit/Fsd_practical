@@ -1,0 +1,82 @@
+:root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #1565c0;
+  background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  font-weight: 500;
+  color: #2193b0;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #1565c0;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: #1565c0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(33,147,176,0.08);
+  transition: background 0.2s, transform 0.1s;
+  width: 100%;
+  margin-bottom: 20px;
+}
+button:hover {
+  background: linear-gradient(90deg, #6dd5ed 0%, #2193b0 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input[type="text"], .weather-input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #6dd5ed;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  outline: none;
+  transition: border 0.2s;
+  background: #111;
+  color: #fff;
+}
+
+input[type="text"]:focus, .weather-input:focus {
+  border: 1.5px solid #2193b0;
+  background: #222;
+  color: #fff;
+}

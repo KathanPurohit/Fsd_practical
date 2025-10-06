@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Calculator</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            background: linear-gradient(45deg, #4facfe 0%, #00f2fe 25%, #84d9ff 50%, #a8e6ff 75%, #c3f0ff 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .calculator {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 
+                0 20px 40px rgba(0,0,0,0.1),
+                0 0 0 1px rgba(255,255,255,0.2),
+                inset 0 1px 0 rgba(255,255,255,0.8);
+            text-align: center;
+            animation: floatIn 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .calculator::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+            100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+        }
+
+        @keyframes floatIn {
+            0% { 
+                opacity: 0; 
+                transform: translateY(50px) scale(0.8);
+            }
+            100% { 
+                opacity: 1; 
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        h1 {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 1;
+            animation: pulse 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+            position: relative;
+            z-index: 1;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #4a5568;
+            font-size: 1.1rem;
+            transform: translateX(10px);
+        }
+
+        input[type="number"], select {
+            width: 100%;
+            padding: 16px 20px;
+            border: 3px solid transparent;
+            border-radius: 20px;
+            font-size: 1.1rem;
+            font-family: inherit;
+            background: linear-gradient(white, white) padding-box,
+                        linear-gradient(135deg, #3b82f6, #1d4ed8) border-box;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            outline: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        input[type="number"]:focus, select:focus {
+            transform: translateY(-2px);
+            box-shadow: 
+                0 8px 25px rgba(59, 130, 246, 0.3),
+                0 0 0 3px rgba(59, 130, 246, 0.1);
+            background: linear-gradient(#f0f9ff, #f0f9ff) padding-box,
+                        linear-gradient(135deg, #3b82f6, #1d4ed8) border-box;
+        }
+
+        input[type="number"]:hover, select:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        select {
+            cursor: pointer;
+            appearance: none;
+            background-image: linear-gradient(white, white), 
+                              linear-gradient(135deg, #3b82f6, #1d4ed8),
+                              url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 16px center, 0 0, right 16px center;
+            background-size: auto, auto, 16px 16px;
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            padding-right: 50px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+            color: white;
+            padding: 16px 40px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 
+                0 8px 20px rgba(59, 130, 246, 0.3),
+                0 4px 10px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+            z-index: -1;
+        }
+
+        button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 
+                0 12px 30px rgba(59, 130, 246, 0.4),
+                0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        button:hover::before {
+            left: 100%;
+        }
+
+        button:active {
+            transform: translateY(-1px) scale(1.02);
+            transition: all 0.1s;
+        }
+
+        #result {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            text-align: center;
+            transform: translateY(20px);
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            z-index: 1;
+        }
+
+        #result.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .error {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
+            animation: shake 0.5s ease-in-out;
+        }
+
+        .success {
+            background: linear-gradient(135deg, #51cf66, #69db7c);
+            color: white;
+            box-shadow: 0 8px 20px rgba(81, 207, 102, 0.3);
+            animation: bounce 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(20px) scale(0.8); opacity: 0; }
+            50% { transform: translateY(-10px) scale(1.05); opacity: 1; }
+            100% { transform: translateY(0) scale(1); opacity: 1; }
+        }
+
+        /* Fun floating shapes */
+        .shape {
+            position: absolute;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .shape:nth-child(1) {
+            top: 10%;
+            left: 10%;
+            width: 60px;
+            height: 60px;
+            background: #3b82f6;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .shape:nth-child(2) {
+            top: 20%;
+            right: 15%;
+            width: 40px;
+            height: 40px;
+            background: #1d4ed8;
+            transform: rotate(45deg);
+            animation: float 8s ease-in-out infinite reverse;
+        }
+
+        .shape:nth-child(3) {
+            bottom: 20%;
+            left: 20%;
+            width: 50px;
+            height: 50px;
+            background: #60a5fa;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            animation: float 7s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .calculator {
+                padding: 25px;
+                border-radius: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            input[type="number"], select, button {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        
+        <h1>🌟 Kids Calculator 🌟</h1>
+        <form id="calculatorForm">
+            <div class="form-group">
+                <label for="num1">🔢 First Number:</label>
+                <input type="number" id="num1" name="num1" required step="any">
+            </div>
+            
+            <div class="form-group">
+                <label for="num2">🔢 Second Number:</label>
+                <input type="number" id="num2" name="num2" required step="any">
+            </div>
+            
+            <div class="form-group">
+                <label for="operation">⚡ Choose Operation:</label>
+                <select id="operation" name="operation">
+                    <option value="add">➕ Add</option>
+                    <option value="subtract">➖ Subtract</option>
+                    <option value="multiply">✖️ Multiply</option>
+                    <option value="divide">➗ Divide</option>
+                </select>
+            </div>
+            
+            <button type="submit">✨ Calculate Magic ✨</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('calculatorForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const resultDiv = document.getElementById('result');
+            
+            // Add loading state
+            resultDiv.className = '';
+            resultDiv.textContent = 'Calculating... ✨';
+            resultDiv.classList.add('show');
+            
+            // Simulate a brief delay for better UX
+            setTimeout(async () => {
+                try {
+                    const response = await fetch('/calculate', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: new URLSearchParams(formData),
+                    });
+                    
+                    const data = await response.json();
+                    
+                    if (data.error) {
+                        resultDiv.className = 'error show';
+                        resultDiv.textContent = `❌ Oops! ${data.error}`;
+                    } else {
+                        resultDiv.className = 'success show';
+                        resultDiv.textContent = `🎉 Result: ${data.result} 🎉`;
+                    }
+                } catch (error) {
+                    resultDiv.className = 'error show';
+                    resultDiv.textContent = '❌ Something went wrong! Please try again.';
+                }
+            }, 500);
+        });
+
+        // Add some interactive feedback
+        const inputs = document.querySelectorAll('input, select');
+        inputs.forEach(input => {
+            input.addEventListener('input', () => {
+                // Clear previous result when user starts typing
+                const resultDiv = document.getElementById('result');
+                if (resultDiv.classList.contains('show')) {
+                    resultDiv.classList.remove('show');
+                    setTimeout(() => {
+                        resultDiv.textContent = '';
+                        resultDiv.className = '';
+                    }, 300);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

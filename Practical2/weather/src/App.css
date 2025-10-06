@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.weather-container {
+  background: rgba(255,255,255,0.97);
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 40px 32px 32px 32px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #1565c0;
+  margin-bottom: 28px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.weather-input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #6dd5ed;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  outline: none;
+  transition: border 0.2s;
+  background: #5f40d9;         
+  color: #fff;              
+}
+
+.weather-input:focus {
+  border: 1.5px solid #2193b0;
+  background: #7423d0;        
+  color: #d9d6df;
+}
+
+.weather-btn {
+  padding: 12px 0;
+  width: 100%;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(33,147,176,0.08);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.weather-btn:hover {
+  background: linear-gradient(90deg, #6dd5ed 0%, #2193b0 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.weather-result {
+  color: #1565c0;
+  font-size: 1.1rem;
+  min-height: 28px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
