@@ -1,0 +1,606 @@
+2025-09-27 11:14:48,523 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:15:23,553 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:15:58,678 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:16:33,732 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:17:08,769 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:17:43,816 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:18:18,878 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:18:53,916 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:19:24,334 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 11:19:28,962 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:19:33,917 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 11:19:33,920 - game_logic.handlers - INFO - Player KathanPurohit is waiting for a match in very_basic_math
+2025-09-27 11:20:04,018 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:20:34,198 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 11:20:38,514 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 11:20:38,517 - game_logic.handlers - INFO - Game started: game_1758932438515_5233 between 23dcs102 and KathanPurohit in category very_basic_math
+2025-09-27 11:20:39,063 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:20:42,589 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 10
+2025-09-27 11:20:42,590 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '10' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:20:42,591 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:20:42,591 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 11:20:42,592 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 11:20:47,484 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 10
+2025-09-27 11:20:47,485 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '10' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 11:20:47,487 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 11:20:47,487 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:20:47,488 - game_logic.handlers - INFO - Answer '10' is wrong for 23dcs102. Expected: '3'
+2025-09-27 11:20:49,827 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:20:49,845 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:20:52,100 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:21:13,699 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:21:14,107 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:21:14,816 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:21:14,875 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:21:15,821 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:21:20,784 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:21:46,362 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:21:49,145 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:22:24,200 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:22:59,245 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:23:34,286 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:24:09,324 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:24:44,357 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:25:19,404 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:25:54,438 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:26:29,473 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:27:05,399 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:27:40,568 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:28:15,795 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:28:27,233 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 11:28:27,234 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 11:28:27,235 - game_logic.handlers - INFO - Removed game game_1758932438515_5233 due to player 23dcs102 disconnect
+2025-09-27 11:28:27,236 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 11:28:27,237 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 11:28:29,636 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 11:28:29,638 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 11:28:29,639 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 11:28:29,644 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 11:28:52,233 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:33:57,029 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 11:34:04,408 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 11:34:04,411 - game_logic.handlers - INFO - Player KathanPurohit is waiting for a match in very_basic_math
+2025-09-27 11:34:12,858 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:35:17,830 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 11:35:20,340 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:35:23,263 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 11:35:23,265 - game_logic.handlers - INFO - Game started: game_1758933323264_9933 between 23dcs102 and KathanPurohit in category very_basic_math
+2025-09-27 11:35:28,111 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 11:35:28,116 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 8 ÷ 2?'
+2025-09-27 11:35:28,118 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 11:35:28,121 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 11:35:28,133 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 11:35:33,140 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 11:35:33,143 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:35:33,144 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:35:33,146 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:35:33,147 - game_logic.handlers - INFO - Answer '4' is wrong for 23dcs102. Expected: '10'
+2025-09-27 11:35:34,417 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:35:37,866 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:35:38,210 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:35:57,260 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:36:24,664 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 11:36:24,665 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:36:24,667 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:36:24,668 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:36:24,669 - game_logic.handlers - INFO - Answer '4' is wrong for 23dcs102. Expected: '10'
+2025-09-27 11:36:27,804 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:36:32,440 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:36:34,936 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:36:35,182 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:37:09,003 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:37:28,785 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:37:41,149 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:37:43,277 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:37:45,412 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:38:22,194 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:38:40,218 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 11:38:40,224 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:38:40,225 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:38:40,231 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:38:40,239 - game_logic.handlers - INFO - Answer '4' is wrong for KathanPurohit. Expected: '10'
+2025-09-27 11:38:43,569 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:38:49,184 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:38:50,712 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:38:58,354 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:39:06,786 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:39:06,898 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:39:19,821 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:39:21,721 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:39:34,784 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:40:09,832 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:40:44,890 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:40:49,634 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:40:49,929 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:41:19,992 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:41:28,859 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:41:28,862 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:41:29,494 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 11:41:29,497 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 11:41:29,500 - game_logic.handlers - INFO - Removed game game_1758933323264_9933 due to player KathanPurohit disconnect
+2025-09-27 11:41:29,502 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 11:41:29,505 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 11:41:33,877 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 11:41:33,878 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 11:41:33,879 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 11:41:33,880 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 11:48:26,805 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 11:48:33,778 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:48:43,094 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 11:48:47,796 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 11:48:47,798 - game_logic.handlers - INFO - Player 23dcs102 is waiting for a match in very_basic_math
+2025-09-27 11:48:50,921 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 11:48:50,926 - game_logic.handlers - INFO - Game started: game_1758934130923_6764 between KathanPurohit and 23dcs102 in category very_basic_math
+2025-09-27 11:48:55,347 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 11:48:55,349 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 2 + 2?'
+2025-09-27 11:48:55,350 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 11:48:55,351 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 11:48:55,352 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 11:49:01,404 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 11:49:01,405 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:49:01,406 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:49:01,407 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:49:01,410 - game_logic.handlers - INFO - Answer '4' is wrong for KathanPurohit. Expected: '10'
+2025-09-27 11:49:03,570 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:49:03,585 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:49:07,376 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 11:49:07,378 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:49:07,379 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:49:07,380 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:49:07,381 - game_logic.handlers - INFO - Answer '4' is wrong for 23dcs102. Expected: '10'
+2025-09-27 11:49:08,869 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:49:12,762 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:49:29,551 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:49:29,616 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:49:43,947 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:50:00,903 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:50:02,953 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:50:19,016 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:50:29,370 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 10
+2025-09-27 11:50:29,371 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '10' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 11:50:29,372 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 11:50:29,372 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 11:50:29,372 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 11:50:33,838 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 10
+2025-09-27 11:50:33,842 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '10' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 11:50:33,847 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 11:50:33,856 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:50:33,866 - game_logic.handlers - INFO - Answer '10' is wrong for 23dcs102. Expected: '3'
+2025-09-27 11:50:35,318 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:50:35,932 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:50:54,099 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:51:04,512 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:51:04,631 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:51:29,184 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:52:04,277 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:52:39,356 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:53:14,384 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:53:16,001 - anti_cheat.detector - INFO - Initialized anti-cheat monitoring for user testuser in session quiz_testuser_1758934396
+2025-09-27 11:53:30,450 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 11:53:30,452 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 11:53:30,452 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 11:53:30,452 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:53:30,455 - game_logic.handlers - INFO - Answer '4' is wrong for 23dcs102. Expected: '3'
+2025-09-27 11:53:32,964 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:53:32,971 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:53:33,024 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 11:53:33,025 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 11:53:33,027 - game_logic.handlers - INFO - Removed game game_1758934130923_6764 due to player 23dcs102 disconnect
+2025-09-27 11:53:33,028 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 11:53:33,029 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 11:53:34,609 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 11:53:34,610 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 11:53:34,612 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 11:53:34,615 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 11:54:29,525 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 11:54:38,906 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:54:42,034 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 11:54:50,631 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 11:54:50,636 - game_logic.handlers - INFO - Player 23dcs102 is waiting for a match in very_basic_math
+2025-09-27 11:54:52,572 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 11:54:52,576 - game_logic.handlers - INFO - Game started: game_1758934492573_1233 between KathanPurohit and 23dcs102 in category very_basic_math
+2025-09-27 11:54:58,345 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 15
+2025-09-27 11:54:58,347 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '15' (type: <class 'str'>) for question: 'What is 5 x 3?'
+2025-09-27 11:54:58,349 - game_logic.handlers - INFO - Expected answer: '15' (type: <class 'str'>)
+2025-09-27 11:54:58,351 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 11:54:58,352 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 11:55:03,898 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 15
+2025-09-27 11:55:03,900 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '15' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 11:55:03,902 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 11:55:03,903 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 11:55:03,906 - game_logic.handlers - INFO - Answer '15' is wrong for KathanPurohit. Expected: '3'
+2025-09-27 11:55:07,595 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:55:08,325 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:55:13,977 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:55:31,506 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:55:31,648 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:55:49,213 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:55:50,477 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:55:54,810 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:55:54,904 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:56:24,301 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:56:45,311 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:56:45,335 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 11:56:46,296 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:56:47,001 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:56:59,346 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:57:25,045 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:57:25,849 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 11:57:34,391 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:58:09,472 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:58:44,646 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:59:19,724 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 11:59:54,810 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:00:29,890 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:00:52,824 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 15
+2025-09-27 12:00:52,825 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '15' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 12:00:52,826 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 12:00:52,827 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 12:00:52,827 - game_logic.handlers - INFO - Answer '15' is wrong for 23dcs102. Expected: '3'
+2025-09-27 12:00:56,083 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:00:56,090 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:00:56,092 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:00:56,093 - game_logic.handlers - INFO - Removed game game_1758934492573_1233 due to player 23dcs102 disconnect
+2025-09-27 12:00:56,095 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:00:56,101 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:01:01,227 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:01:01,230 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:01:01,232 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:01:01,239 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:01:04,991 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:01:13,838 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:01:27,991 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:01:40,058 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:01:46,250 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 12:01:46,251 - game_logic.handlers - INFO - Player KathanPurohit is waiting for a match in very_basic_math
+2025-09-27 12:01:48,585 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 12:01:48,587 - game_logic.handlers - INFO - Game started: game_1758934908585_1448 between 23dcs102 and KathanPurohit in category very_basic_math
+2025-09-27 12:01:53,343 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 3
+2025-09-27 12:01:53,344 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '3' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 12:01:53,344 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 12:01:53,346 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:01:53,347 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 12:01:56,201 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:01:56,222 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:02:00,036 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 12:02:00,038 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 2 + 2?'
+2025-09-27 12:02:00,038 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 12:02:00,039 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:02:00,039 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:02:02,957 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:02:02,973 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:02:07,006 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 12:02:07,008 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 8 ÷ 2?'
+2025-09-27 12:02:07,009 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 12:02:07,009 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:02:07,011 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 12:02:15,154 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:02:16,224 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 15
+2025-09-27 12:02:16,225 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '15' (type: <class 'str'>) for question: 'What is 5 x 3?'
+2025-09-27 12:02:16,226 - game_logic.handlers - INFO - Expected answer: '15' (type: <class 'str'>)
+2025-09-27 12:02:16,227 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:02:16,228 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 12:02:19,845 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 10
+2025-09-27 12:02:19,846 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '10' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 12:02:19,848 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 12:02:19,849 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:02:19,849 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 12:02:19,922 - game_logic.handlers - INFO - Game game_1758934908585_1448 ended. Winner: 23dcs102
+2025-09-27 12:02:50,254 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:03:25,509 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:03:57,142 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:03:57,142 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:03:57,142 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:03:57,146 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:03:57,147 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:03:57,149 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:03:57,150 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:03:57,150 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:13:45,569 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:14:03,089 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:14:18,162 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:14:18,163 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:14:18,163 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:14:18,166 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:20:30,021 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:20:30,022 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:20:30,027 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:20:30,029 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:20:37,794 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:20:46,835 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:20:46,835 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:20:46,835 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:20:46,835 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:20:56,626 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:21:25,736 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:21:38,591 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:21:38,592 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:21:38,594 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:21:38,596 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:21:47,204 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:22:00,791 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:22:35,855 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:23:10,893 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:23:45,982 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:24:00,768 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:24:00,770 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:24:00,771 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:24:00,771 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:24:21,063 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:24:54,070 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:24:56,142 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:25:29,472 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:25:31,233 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:26:06,304 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:26:13,823 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:26:41,393 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:26:48,868 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:27:16,483 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:27:23,953 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:27:51,549 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:27:58,985 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:28:05,101 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:28:08,242 - database - INFO - All database indexes created successfully
+2025-09-27 12:28:08,243 - database - INFO - Database indexes ensured
+2025-09-27 12:28:20,917 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:28:24,838 - database - INFO - All database indexes created successfully
+2025-09-27 12:28:24,847 - database - INFO - Database indexes ensured
+2025-09-27 12:28:38,349 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:28:55,316 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:29:13,427 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:29:37,672 - database - INFO - MongoDB connection closed
+2025-09-27 12:29:43,267 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:29:47,052 - database - INFO - All database indexes created successfully
+2025-09-27 12:29:47,052 - database - INFO - Database indexes ensured
+2025-09-27 12:30:17,150 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:30:17,977 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:30:36,197 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:30:39,459 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 12:30:39,463 - game_logic.handlers - INFO - Player 23dcs102 is waiting for a match in very_basic_math
+2025-09-27 12:30:41,173 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 12:30:41,177 - game_logic.handlers - INFO - Game started: game_1758936641176_8482 between KathanPurohit and 23dcs102 in category very_basic_math
+2025-09-27 12:30:48,693 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 12:30:48,694 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 2 + 2?'
+2025-09-27 12:30:48,695 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 12:30:48,696 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:30:48,697 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:30:52,270 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:30:53,968 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 12:30:53,972 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 12:30:53,976 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 12:30:53,981 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 12:30:53,985 - game_logic.handlers - INFO - Answer '4' is wrong for KathanPurohit. Expected: '3'
+2025-09-27 12:30:57,534 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:30:57,554 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:31:00,945 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 4
+2025-09-27 12:31:00,948 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '4' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 12:31:00,949 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 12:31:00,950 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 12:31:00,953 - game_logic.handlers - INFO - Answer '4' is wrong for 23dcs102. Expected: '3'
+2025-09-27 12:31:02,286 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:31:02,433 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:31:10,817 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:31:14,619 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:31:14,642 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:31:15,786 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:31:15,789 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:31:15,836 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:31:15,839 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:31:15,840 - game_logic.handlers - INFO - Removed game game_1758936641176_8482 due to player KathanPurohit disconnect
+2025-09-27 12:31:15,843 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:31:15,846 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:31:17,900 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:31:17,901 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:31:17,902 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:31:17,904 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:41:19,529 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:41:22,942 - database - INFO - All database indexes created successfully
+2025-09-27 12:41:22,942 - database - INFO - Database indexes ensured
+2025-09-27 12:41:28,609 - database - INFO - MongoDB connection closed
+2025-09-27 12:41:34,041 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:41:36,984 - database - INFO - All database indexes created successfully
+2025-09-27 12:41:36,984 - database - INFO - Database indexes ensured
+2025-09-27 12:42:07,075 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:42:19,559 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:42:26,328 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:42:31,192 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 12:42:31,196 - game_logic.handlers - INFO - Player KathanPurohit is waiting for a match in very_basic_math
+2025-09-27 12:42:33,232 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 12:42:33,235 - game_logic.handlers - INFO - Game started: game_1758937353233_5448 between 23dcs102 and KathanPurohit in category very_basic_math
+2025-09-27 12:42:37,989 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 3
+2025-09-27 12:42:37,991 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '3' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 12:42:37,994 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 12:42:37,998 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:42:38,006 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 12:42:42,129 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:42:42,571 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 3
+2025-09-27 12:42:42,584 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '3' (type: <class 'str'>) for question: 'What is 5 x 3?'
+2025-09-27 12:42:42,585 - game_logic.handlers - INFO - Expected answer: '15' (type: <class 'str'>)
+2025-09-27 12:42:42,601 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 12:42:42,633 - game_logic.handlers - INFO - Answer '3' is wrong for 23dcs102. Expected: '15'
+2025-09-27 12:42:44,752 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:42:44,759 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from 23dcs102
+2025-09-27 12:42:49,231 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 3
+2025-09-27 12:42:49,233 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '3' (type: <class 'str'>) for question: 'What is 5 x 3?'
+2025-09-27 12:42:49,233 - game_logic.handlers - INFO - Expected answer: '15' (type: <class 'str'>)
+2025-09-27 12:42:49,236 - game_logic.handlers - INFO - Answer comparison result: False
+2025-09-27 12:42:49,237 - game_logic.handlers - INFO - Answer '3' is wrong for KathanPurohit. Expected: '15'
+2025-09-27 12:42:50,124 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:42:51,300 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:43:09,261 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:43:09,667 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:43:17,239 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:43:52,324 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:44:03,520 - api.websocket_routes - WARNING - Unknown message type 'cheating_detected' from KathanPurohit
+2025-09-27 12:51:13,869 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:51:16,831 - database - INFO - All database indexes created successfully
+2025-09-27 12:51:16,831 - database - INFO - Database indexes ensured
+2025-09-27 12:51:43,980 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:51:46,915 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:51:53,220 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 12:51:56,359 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 12:51:56,364 - game_logic.handlers - INFO - Player 23dcs102 is waiting for a match in very_basic_math
+2025-09-27 12:51:59,003 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 12:51:59,005 - game_logic.handlers - INFO - Starting game game_1758937919005_4688 with questions: ['What is 2 + 2?', 'What is 6 + 4?', 'What is 8 ÷ 2?', 'What is 5 x 3?', 'What is 10 - 7?']
+2025-09-27 12:51:59,008 - game_logic.handlers - INFO - Game started: game_1758937919005_4688 between KathanPurohit and 23dcs102 in category very_basic_math
+2025-09-27 12:52:03,089 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 12:52:03,091 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 2 + 2?'
+2025-09-27 12:52:03,092 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 12:52:03,093 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:52:03,094 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:52:03,151 - game_logic.handlers - INFO - Moving to next question: 'What is 6 + 4?' (index: 1)
+2025-09-27 12:52:09,361 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 10
+2025-09-27 12:52:09,364 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '10' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 12:52:09,365 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 12:52:09,368 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:52:09,370 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:52:09,430 - game_logic.handlers - INFO - Moving to next question: 'What is 8 ÷ 2?' (index: 2)
+2025-09-27 12:52:13,371 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 12:52:13,372 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 8 ÷ 2?'
+2025-09-27 12:52:13,373 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 12:52:13,374 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:52:13,376 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:52:13,466 - game_logic.handlers - INFO - Moving to next question: 'What is 5 x 3?' (index: 3)
+2025-09-27 12:52:17,091 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 15
+2025-09-27 12:52:17,092 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '15' (type: <class 'str'>) for question: 'What is 5 x 3?'
+2025-09-27 12:52:17,093 - game_logic.handlers - INFO - Expected answer: '15' (type: <class 'str'>)
+2025-09-27 12:52:17,095 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:52:17,096 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:52:17,172 - game_logic.handlers - INFO - Moving to next question: 'What is 10 - 7?' (index: 4)
+2025-09-27 12:52:20,622 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 3
+2025-09-27 12:52:20,623 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '3' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 12:52:20,625 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 12:52:20,626 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 12:52:20,628 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 12:52:20,701 - game_logic.handlers - INFO - Game game_1758937919005_4688 ended. Winner: KathanPurohit
+2025-09-27 12:52:22,036 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:52:57,136 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:53:32,243 - api.websocket_routes - ERROR - Error in leaderboard broadcast: 'total_points'
+2025-09-27 12:53:52,161 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:53:52,163 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:53:52,163 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:53:52,166 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:53:52,167 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 12:53:52,168 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 12:53:52,170 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:53:52,171 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 12:53:52,330 - database - INFO - MongoDB connection closed
+2025-09-27 12:53:57,597 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:54:00,403 - database - INFO - All database indexes created successfully
+2025-09-27 12:54:00,405 - database - INFO - Database indexes ensured
+2025-09-27 12:54:05,312 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:54:08,227 - database - INFO - All database indexes created successfully
+2025-09-27 12:54:08,228 - database - INFO - Database indexes ensured
+2025-09-27 12:54:12,953 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:54:15,986 - database - INFO - All database indexes created successfully
+2025-09-27 12:54:15,987 - database - INFO - Database indexes ensured
+2025-09-27 12:54:20,789 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:54:23,911 - database - INFO - All database indexes created successfully
+2025-09-27 12:54:23,911 - database - INFO - Database indexes ensured
+2025-09-27 12:54:50,113 - database - INFO - MongoDB connection closed
+2025-09-27 12:54:53,619 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:54:56,509 - database - INFO - All database indexes created successfully
+2025-09-27 12:54:56,510 - database - INFO - Database indexes ensured
+2025-09-27 12:55:40,480 - api.http_routes - INFO - Migrated 4 users to include total_points field
+2025-09-27 12:55:40,554 - api.http_routes - INFO - Migrated 4 users to include level field
+2025-09-27 12:55:56,256 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 12:58:00,098 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 12:58:00,098 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 12:58:00,098 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 12:58:00,098 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 12:58:00,255 - database - INFO - MongoDB connection closed
+2025-09-27 12:58:05,108 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:58:15,428 - database - INFO - All database indexes created successfully
+2025-09-27 12:58:15,428 - database - INFO - Database indexes ensured
+2025-09-27 12:58:19,647 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 12:58:22,677 - database - INFO - All database indexes created successfully
+2025-09-27 12:58:22,677 - database - INFO - Database indexes ensured
+2025-09-27 13:10:58,293 - api.http_routes - INFO - Login successful for user: KathanPurohit
+2025-09-27 13:10:58,294 - api.http_routes - INFO - User data: {'_id': ObjectId('68d77ae32a9a4bf13769da18'), 'username': 'KathanPurohit', 'score': 27, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 49, 23, 755000), 'last_login': datetime.datetime(2025, 9, 27, 7, 25, 55, 621000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:10:58,295 - api.http_routes - INFO - Serialized user: {'_id': '68d77ae32a9a4bf13769da18', 'username': 'KathanPurohit', 'score': 27, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 49, 23, 755000), 'last_login': datetime.datetime(2025, 9, 27, 7, 25, 55, 621000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:10:58,676 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 13:11:30,095 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:11:30,095 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 13:11:30,095 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 13:11:30,095 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 13:11:39,925 - api.http_routes - INFO - Login successful for user: 23dcs102
+2025-09-27 13:11:39,926 - api.http_routes - INFO - User data: {'_id': ObjectId('68d77b292a9a4bf13769da1a'), 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 21, 52, 711000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:11:39,928 - api.http_routes - INFO - Serialized user: {'_id': '68d77b292a9a4bf13769da1a', 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 21, 52, 711000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:11:40,355 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 13:13:36,516 - api.http_routes - INFO - Login successful for user: 23dcs102
+2025-09-27 13:13:36,518 - api.http_routes - INFO - User data: {'_id': ObjectId('68d77b292a9a4bf13769da1a'), 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 41, 39, 617000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:13:36,519 - api.http_routes - INFO - Serialized user: {'_id': '68d77b292a9a4bf13769da1a', 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 41, 39, 617000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:13:36,850 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 13:13:36,851 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 13:13:36,851 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 13:13:39,636 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:13:39,637 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 13:13:39,638 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 13:13:39,639 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 13:13:53,673 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:14:00,021 - api.http_routes - INFO - Login successful for user: 23dcs102
+2025-09-27 13:14:00,029 - api.http_routes - INFO - User data: {'_id': ObjectId('68d77b292a9a4bf13769da1a'), 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 43, 36, 335000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:14:00,034 - api.http_routes - INFO - Serialized user: {'_id': '68d77b292a9a4bf13769da1a', 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 43, 36, 335000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:14:00,393 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 13:15:18,654 - api.http_routes - INFO - Login successful for user: 23dcs102
+2025-09-27 13:15:18,657 - api.http_routes - INFO - User data: {'_id': ObjectId('68d77b292a9a4bf13769da1a'), 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 43, 59, 621000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:15:18,658 - api.http_routes - INFO - Serialized user: {'_id': '68d77b292a9a4bf13769da1a', 'username': '23dcs102', 'score': 24, 'total_points': 0, 'quiz_coins': 100, 'level': 1, 'experience': 0, 'created_at': datetime.datetime(2025, 9, 27, 5, 50, 33, 590000), 'last_login': datetime.datetime(2025, 9, 27, 7, 43, 59, 621000), 'avatar': None, 'theme': 'default', 'achievements': [], 'badges': [], 'streaks': {}, 'mastery_levels': {}, 'device_fingerprint': None, 'ip_address': '127.0.0.1', 'geolocation': None, 'preferences': {}, 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'}
+2025-09-27 13:15:19,466 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 13:15:19,469 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 13:15:19,470 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 13:16:41,418 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:16:41,419 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 13:16:41,420 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 13:16:41,422 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:16:41,425 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 13:16:41,737 - database - INFO - MongoDB connection closed
+2025-09-27 13:16:47,626 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 13:17:04,013 - database - INFO - All database indexes created successfully
+2025-09-27 13:17:04,015 - database - INFO - Database indexes ensured
+2025-09-27 13:17:05,005 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
+2025-09-27 13:17:10,631 - api.websocket_routes - INFO - Processing find_match for KathanPurohit in category very_basic_math
+2025-09-27 13:17:10,632 - game_logic.handlers - INFO - Player KathanPurohit is waiting for a match in very_basic_math
+2025-09-27 13:17:35,056 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_23dcs102
+2025-09-27 13:17:39,268 - api.websocket_routes - INFO - Processing find_match for 23dcs102 in category very_basic_math
+2025-09-27 13:17:39,271 - game_logic.handlers - INFO - Game started: game_1758939459269_4310 between 23dcs102 and KathanPurohit in category very_basic_math
+2025-09-27 13:17:44,415 - api.websocket_routes - INFO - Processing answer submission for 23dcs102: 3
+2025-09-27 13:17:44,416 - game_logic.handlers - INFO - Player 23dcs102 submitted answer: '3' (type: <class 'str'>) for question: 'What is 10 - 7?'
+2025-09-27 13:17:44,417 - game_logic.handlers - INFO - Expected answer: '3' (type: <class 'str'>)
+2025-09-27 13:17:44,419 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 13:17:44,420 - game_logic.handlers - INFO - Answer is correct for 23dcs102
+2025-09-27 13:17:45,290 - api.websocket_routes - INFO - Cheating detected for 23dcs102: None - {}
+2025-09-27 13:17:45,296 - api.websocket_routes - INFO - Cheating detected for 23dcs102: None - {}
+2025-09-27 13:17:51,963 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 13:17:51,965 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 8 ÷ 2?'
+2025-09-27 13:17:51,966 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 13:17:51,967 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 13:17:51,967 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 13:17:55,371 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 15
+2025-09-27 13:17:55,372 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '15' (type: <class 'str'>) for question: 'What is 5 x 3?'
+2025-09-27 13:17:55,372 - game_logic.handlers - INFO - Expected answer: '15' (type: <class 'str'>)
+2025-09-27 13:17:55,373 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 13:17:55,374 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 13:18:00,368 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 4
+2025-09-27 13:18:00,369 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '4' (type: <class 'str'>) for question: 'What is 2 + 2?'
+2025-09-27 13:18:00,369 - game_logic.handlers - INFO - Expected answer: '4' (type: <class 'str'>)
+2025-09-27 13:18:00,370 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 13:18:00,371 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 13:18:04,161 - api.websocket_routes - INFO - Processing answer submission for KathanPurohit: 10
+2025-09-27 13:18:04,163 - game_logic.handlers - INFO - Player KathanPurohit submitted answer: '10' (type: <class 'str'>) for question: 'What is 6 + 4?'
+2025-09-27 13:18:04,163 - game_logic.handlers - INFO - Expected answer: '10' (type: <class 'str'>)
+2025-09-27 13:18:04,165 - game_logic.handlers - INFO - Answer comparison result: True
+2025-09-27 13:18:04,166 - game_logic.handlers - INFO - Answer is correct for KathanPurohit
+2025-09-27 13:18:04,232 - game_logic.handlers - INFO - Game game_1758939459269_4310 ended. Winner: KathanPurohit
+2025-09-27 13:19:59,181 - api.websocket_routes - ERROR - WebSocket error for 23dcs102: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:19:59,181 - game_logic.handlers - INFO - Removed 23dcs102 from connected players
+2025-09-27 13:19:59,184 - anti_cheat.monitor - INFO - Stopped monitoring for session session_23dcs102
+2025-09-27 13:19:59,185 - api.websocket_routes - ERROR - WebSocket error for KathanPurohit: Unexpected ASGI message 'websocket.send', after sending 'websocket.close'.
+2025-09-27 13:19:59,185 - game_logic.handlers - INFO - Removed KathanPurohit from connected players
+2025-09-27 13:19:59,185 - anti_cheat.monitor - INFO - Stopped monitoring for session session_KathanPurohit
+2025-09-27 13:19:59,185 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_23dcs102
+2025-09-27 13:19:59,189 - anti_cheat.monitor - INFO - Monitoring cancelled for session session_KathanPurohit
+2025-09-27 13:19:59,385 - database - INFO - MongoDB connection closed
+2025-09-27 13:20:04,035 - database - INFO - Connected to MongoDB Atlas successfully!
+2025-09-27 13:20:07,456 - database - INFO - All database indexes created successfully
+2025-09-27 13:20:07,465 - database - INFO - Database indexes ensured
+2025-09-27 13:20:29,303 - anti_cheat.monitor - INFO - Started real-time monitoring for session session_KathanPurohit
