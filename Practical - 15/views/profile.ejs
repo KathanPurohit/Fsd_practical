@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Library Portal - Profile</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, <%= user.name %>!</h1>
+    <p>You logged in at: <%= user.loginTime.toLocaleString() %></p>
+    <a href="/logout" class="logout-btn">Logout</a>
+  </div>
+</body>
+</html>
